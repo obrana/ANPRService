@@ -1,4 +1,5 @@
-﻿using CodeChallenge;
+﻿using System.Diagnostics.Metrics;
+using CodeChallenge;
 using LicensePlateAnalyzer;
 
 class Program
@@ -40,7 +41,6 @@ class Program
 
             Console.WriteLine($"  Plates: {string.Join(", ", plates)}");
         }
-
 
         Console.ReadLine();
 
