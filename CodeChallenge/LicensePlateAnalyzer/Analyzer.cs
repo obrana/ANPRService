@@ -48,41 +48,19 @@ public class Analyzer
 
 
     private string GetCountry(string licensePlate)
-    {
+        => Regex.IsMatch(licensePlate, @"^[A-Z]{3}\s[0-9]{3}$") ? "Sweden" :
+        Regex.IsMatch(licensePlate, @"^[A-Z]{2}\s[0-9]{2}\s[0-9]{3}$") ? "Denmark" :
+        "Unknown";
 
-
-        Regex swedishRegex = new Regex(@"^[A-Z]{3}\s[0-9]{3}$");
-        Regex danishRegex = new Regex(@"^[A-Z]{2}\s[0-9]{2}\s[0-9]{3}$");
-
-        if (swedishRegex.IsMatch(licensePlate))
-        {
-            return "Sweden";
-        }
-        else if (danishRegex.IsMatch(licensePlate))
-        {
-            return "Denmark";
-        }
-        else
-        {
-            return "Unknown";
-        }
-        }
 
     public List<string> GetPlates(string country, int limit)
     {
-        List<string> plates = new List<string>();
-
-        foreach (var plate in _licensePlates)
-        {
-            if (plate.Country == country && plates.Count < limit)
-            {
-                plates.Add(plate.Number);
-            }
-        }
-
-        return plates;
+        return _licensePlates
+            .Where(plate => plate.Country == country)
+            .Select(plate => plate.Number ??"")
+            .Take(limit)
+            .ToList();
     }
-
 
 
 }

@@ -18,11 +18,11 @@ namespace CodeChallenge
 
 			try
 			{
-				using (StreamReader reader = new StreamReader(_filePath))
+				using (StreamReader reader  = new StreamReader(_filePath))
 				{
-					string line;
+					string? line;
 
-					while ((line = reader.ReadLine()) != null)
+					while ((line = reader.ReadLine()) is not null)
 					{
 						licensePlates.Add(line);
 					}
