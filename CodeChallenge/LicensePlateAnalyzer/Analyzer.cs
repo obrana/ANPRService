@@ -8,6 +8,7 @@ public class Analyzer
    
 
     private readonly Dictionary<string, int> _countryCounts = new Dictionary<string, int>();
+    private List<LicensePlate> _licensePlates = new List<LicensePlate>();
 
     private int _numCarsAnalyzed = 0;
 
@@ -24,7 +25,7 @@ public class Analyzer
    
         _countryCounts[country]++;
         _numCarsAnalyzed++;
-       
+        _licensePlates.Add(new LicensePlate { Country = country, Number = licensePlate });
     }
 
 
@@ -67,7 +68,20 @@ public class Analyzer
         }
         }
 
+    public List<string> GetPlates(string country, int limit)
+    {
+        List<string> plates = new List<string>();
 
+        foreach (var plate in _licensePlates)
+        {
+            if (plate.Country == country && plates.Count < limit)
+            {
+                plates.Add(plate.Number);
+            }
+        }
+
+        return plates;
+    }
 
 
 

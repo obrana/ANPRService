@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ombikramrana/Projects/CodeChallenge/LicensePlateAnalyzer/LicensePlateAnalyzer.csproj",
+      "projectUniqueName": "/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/LicensePlateAnalyzer.csproj",
       "projectName": "LicensePlateAnalyzer",
-      "projectPath": "/Users/ombikramrana/Projects/CodeChallenge/LicensePlateAnalyzer/LicensePlateAnalyzer.csproj",
+      "projectPath": "/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/LicensePlateAnalyzer.csproj",
       "packagesPath": "/Users/ombikramrana/.nuget/packages/",
-      "outputPath": "/Users/ombikramrana/Projects/CodeChallenge/LicensePlateAnalyzer/obj/",
+      "outputPath": "/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

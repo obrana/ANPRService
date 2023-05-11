@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ombikramrana/Projects/CodeChallenge/CodeChallenge/CodeChallenge.csproj",
+      "projectUniqueName": "/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/CodeChallenge/CodeChallenge.csproj",
       "projectName": "CodeChallenge",
-      "projectPath": "/Users/ombikramrana/Projects/CodeChallenge/CodeChallenge/CodeChallenge.csproj",
+      "projectPath": "/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/CodeChallenge/CodeChallenge.csproj",
       "packagesPath": "/Users/ombikramrana/.nuget/packages/",
-      "outputPath": "/Users/ombikramrana/Projects/CodeChallenge/CodeChallenge/obj/",
+      "outputPath": "/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/CodeChallenge/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -55,8 +55,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/ombikramrana/Projects/CodeChallenge/LicensePlateAnalyzer/LicensePlateAnalyzer.csproj": {
-              "projectPath": "/Users/ombikramrana/Projects/CodeChallenge/LicensePlateAnalyzer/LicensePlateAnalyzer.csproj"
+            "/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/LicensePlateAnalyzer.csproj": {
+              "projectPath": "/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/LicensePlateAnalyzer.csproj"
             }
           }
         }

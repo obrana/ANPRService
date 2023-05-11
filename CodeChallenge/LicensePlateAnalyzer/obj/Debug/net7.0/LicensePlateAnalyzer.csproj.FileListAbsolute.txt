@@ -10,3 +10,15 @@
 /Users/ombikramrana/Projects/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/refint/LicensePlateAnalyzer.dll
 /Users/ombikramrana/Projects/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/LicensePlateAnalyzer.pdb
 /Users/ombikramrana/Projects/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/ref/LicensePlateAnalyzer.dll
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/bin/Debug/net7.0/LicensePlateAnalyzer.deps.json
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/bin/Debug/net7.0/LicensePlateAnalyzer.dll
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/bin/Debug/net7.0/LicensePlateAnalyzer.pdb
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/LicensePlateAnalyzer.csproj.AssemblyReference.cache
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/LicensePlateAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/LicensePlateAnalyzer.AssemblyInfoInputs.cache
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/LicensePlateAnalyzer.AssemblyInfo.cs
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/LicensePlateAnalyzer.csproj.CoreCompileInputs.cache
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/LicensePlateAnalyzer.dll
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/refint/LicensePlateAnalyzer.dll
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/LicensePlateAnalyzer.pdb
+/Users/ombikramrana/Documents/GitHub/ANPRService/CodeChallenge/LicensePlateAnalyzer/obj/Debug/net7.0/ref/LicensePlateAnalyzer.dll

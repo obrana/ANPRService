@@ -32,6 +32,14 @@ class Program
         Console.WriteLine($"Number of Cars analyzed since last reset: {numCarsAnalyzed}");
 
 
+        foreach (var country in countryCounts)
+        {
+            Console.WriteLine($"{country.Key}: {country.Value}");
+
+            List<string> plates = analyzer.GetPlates(country.Key, 100);
+
+            Console.WriteLine($"  Plates: {string.Join(", ", plates)}");
+        }
 
 
         Console.ReadLine();
