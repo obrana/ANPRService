@@ -29,7 +29,6 @@ public class Analyzer
     }
 
 
-
     public int GetNumCarsAnalyzed()
     {
         return _numCarsAnalyzed;

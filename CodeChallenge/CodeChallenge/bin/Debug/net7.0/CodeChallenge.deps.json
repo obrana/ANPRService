@@ -7,27 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "CodeChallenge/1.0.0": {
-        "dependencies": {
-          "LicensePlateAnalyzer": "1.0.0"
-        },
         "runtime": {
           "CodeChallenge.dll": {}
-        }
-      },
-      "LicensePlateAnalyzer/1.0.0": {
-        "runtime": {
-          "LicensePlateAnalyzer.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CodeChallenge/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "LicensePlateAnalyzer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
